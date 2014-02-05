@@ -1,0 +1,38 @@
+state.SSI01AK4643 {
+	control.1 {
+		iface MIXER
+		name 'Digital Playback Volume'
+		value.0 180
+		value.1 180
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 255'
+			dbmin -9999999
+			dbmax 1200
+			dbvalue.0 -2550
+			dbvalue.1 -2550
+		}
+	}
+	control.2 {
+		iface MIXER
+		name 'LINEOUT Mixer DACL'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.3 {
+		iface MIXER
+		name 'Headphone Enable Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+}
