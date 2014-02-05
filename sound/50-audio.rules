@@ -1,0 +1,1 @@
+SUBSYSTEMS=="platform", ATTR{id}=="koelschak4643", ENV{SOUND_FORM_FACTOR}="internal"

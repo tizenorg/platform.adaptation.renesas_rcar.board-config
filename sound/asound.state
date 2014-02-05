@@ -1,0 +1,24 @@
+state.koelschak4643 {
+	control.2 {
+		iface MIXER
+		name 'LINEOUT Mixer DACL'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.4 {
+		iface MIXER
+		name 'SSI0 Control'
+		value On
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 Off
+			item.1 On
+		}
+	}
+}
