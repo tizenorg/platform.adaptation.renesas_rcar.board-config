@@ -1,4 +1,4 @@
-SUBDIRS=sound
+SUBDIRS=sound video
 
 all:
 	for d in ${SUBDIRS}; do $(MAKE) -C $$d; done
